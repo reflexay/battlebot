@@ -10,7 +10,7 @@ message.delete().catch(O_o=>{});
 client.guilds.get("428523906501181440").channels.get("428530825487974402").send("@everyone",{embed: {
   color: 3447003,
   author: {
-    name: `${message.author}`,
+    name: "Anuncio!",
     icon_url: client.user.avatarURL
   },
   title: client.user.username,
