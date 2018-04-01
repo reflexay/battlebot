@@ -4,7 +4,7 @@ exports.run = (client, message, args) => {
 
 let member = message.mentions.members.first();
 if(!member)
-  return message.reply("Uso correto: /ban (@user) (motivo)");
+  return message.reply("Uso correto: !ban (@user) (motivo)");
 if(!member.kickable) 
   return message.reply("Não tenho permissão para isso");
 
